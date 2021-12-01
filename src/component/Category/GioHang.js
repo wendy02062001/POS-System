@@ -8,7 +8,7 @@ export default class GioHang extends Component {
     return gioHang.map((sanpham, index) => {
         return <div className="row py-2">
                     <div className="col-2">
-                        <img src={sanpham.hinhAnh} style={{width:'4rem', height:'4rem'}}/>
+                        <img src={sanpham.hinhAnh} style={{width:'4rem', height:'4rem', objectFit: 'cover'}}/>
                     </div>
                     <div className="col-8">
                         <h5>{sanpham.tenSP}</h5>
