@@ -5,8 +5,8 @@ export default class SanPham extends Component {
     let {sanpham} = this.props;
     return (
       <div>
-            <div class="card" style={{display: 'block', width: '18rem', transitionDuration: '0.3s', height: '23rem'}}>
-                <img style={{height: '15rem'}} src={sanpham.hinhAnh} class="card-img-top w-100" alt={sanpham.tenSP} />
+            <div class="card" style={{display: 'block', width: '18rem', transitionDuration: '0.3s', height: '23rem', margin: '1rem 0px 1rem 0px'}}>
+                <img style={{height: '16rem', objectFit: 'cover'}} src={sanpham.hinhAnh} class="card-img-top w-100" alt={sanpham.tenSP} />
                 <div class="card-body">
                     <h5 class="card-title">{sanpham.tenSP}</h5>
                     <div className="row">

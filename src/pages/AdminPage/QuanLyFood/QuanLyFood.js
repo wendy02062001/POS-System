@@ -51,7 +51,7 @@ export default function QuanLyFood(props) {
           title: 'Image',
           dataIndex: 'hinhAnh',
           key: 'hinhAnh',
-          render: (text,sp) => <img src={sp.hinhAnh} alt="food" width={50} height={50} />
+          render: (text,sp) => <img src={sp.hinhAnh} alt="food" width={50} height={50} style={{objectFit: 'cover'}} />
         },
         {
             title: 'Description',
