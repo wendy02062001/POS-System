@@ -19,14 +19,14 @@ export default function ModalAdminPage(props) {
     return (
         <Modal show={show} dialogClassName="modal-admin-success" onHide={handleClose} centered>
             <Modal.Body>
-                <p>Thành công !</p>
+                <p>Successfully done !</p>
                 <div className="img-successful">
                     <img className="w-100" src="/img/img-tich-xanh-3.png" alt="food" />
                 </div>
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="info" onClick={handleClose}>
-                    Đóng
+                    Close
                 </Button>
             </Modal.Footer>
         </Modal>
